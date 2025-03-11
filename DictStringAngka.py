@@ -21,3 +21,26 @@ def angka_ke_kata2(angka):
 
 
 print(angka_ke_kata(3124))
+
+def int_to_string(angka):
+  for i in angka: 
+    if i == "0":
+      print("Nol", end=" ")  
+    elif i == "1":
+      print("Satu", end=" ")
+    elif i == "2":
+      print("Dua", end=" ")
+    elif i == "3":
+      print("Tiga", end=" ")
+    elif i == "4":
+      print("Empat", end=" ")
+    elif i == "5":
+      print("Lima", end=" ")
+    elif i == "6":
+      print("Enam", end=" ")
+    elif i == "7":
+      print("Tujuh", end=" ")
+    elif i == "8":
+      print("Delapan", end=" ")
+    elif i == "9":
+      print("Sembilan", end=" ")
